@@ -7,7 +7,7 @@ class Player
     player_hand = gets.to_i
     if player_hand>=3
       puts "0~2の数字を入力してください"
-      hand()
+      self.hand
     else
       puts player_hand
     end
